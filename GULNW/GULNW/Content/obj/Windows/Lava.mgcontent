@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/MSI-GL72-7RD/source/repos/GULNW/GULNW/Content/Lava.png</SourceFile>
-  <SourceTime>2017-11-15T18:07:37.5852447+07:00</SourceTime>
-  <DestFile>C:/Users/MSI-GL72-7RD/source/repos/GULNW/GULNW/Content/bin/Windows/Lava.xnb</DestFile>
-  <DestTime>2017-11-16T09:43:19.9338508+07:00</DestTime>
+  <SourceFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/Lava.png</SourceFile>
+  <SourceTime>2017-11-16T17:36:36.8500666+07:00</SourceTime>
+  <DestFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/bin/Windows/Lava.xnb</DestFile>
+  <DestTime>2017-11-16T17:57:23.8939283+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-10-15T23:46:32+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

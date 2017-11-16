@@ -9,7 +9,7 @@ namespace GULNW
     {
         private Texture2D _texture;
         public Vector2 position;
-        public float speed = 2f;
+        public float speed = 8f;
         public Boolean _hit;
         public tile(Texture2D texture)
         {
@@ -18,50 +18,41 @@ namespace GULNW
 
         }
         
-        public void Hitcheck()
-        {
-            if (position.Y < 40) { _hit = true; }
-        }
         public void Update()
         {
             if (Keyboard.GetState().IsKeyDown(Keys.W))
             {
-                Hitcheck();
-                if (_hit)
+               
+                if (position.Y <= 40)
                 {
-                    _hit = false;
-                    position.Y += speed;
+                    position.Y = 40;
                 }
                 else
                 position.Y -= speed;
             }
             if (Keyboard.GetState().IsKeyDown(Keys.S))
             {
-                Hitcheck();
-                if (_hit)
+                if (position.Y >= 400)
                 {
-                    _hit = false;
-                    position.Y += speed;
+                    position.Y = 400;
                 }
                 else
                     position.Y += speed;
             }
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
-                Hitcheck();
-                if (_hit)
+                if (position.X <= 40)
                 {
-                    _hit = false;
+                    position.X = 40;
                 }
                 else
                     position.X -= speed;
             }
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
-                Hitcheck();
-                if (_hit)
+                if (position.X >= 720)
                 {
-                    _hit = false;
+                    position.X = 720;
                 }
                 else
                     position.X += speed;

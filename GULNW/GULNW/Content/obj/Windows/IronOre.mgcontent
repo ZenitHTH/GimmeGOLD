@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/MSI-GL72-7RD/source/repos/GULNW/GULNW/Content/IronOre.png</SourceFile>
-  <SourceTime>2017-11-15T18:07:18.1690114+07:00</SourceTime>
-  <DestFile>C:/Users/MSI-GL72-7RD/source/repos/GULNW/GULNW/Content/bin/Windows/IronOre.xnb</DestFile>
-  <DestTime>2017-11-16T09:43:19.9138179+07:00</DestTime>
+  <SourceFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/IronOre.png</SourceFile>
+  <SourceTime>2017-11-16T17:36:36.8420457+07:00</SourceTime>
+  <DestFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/bin/Windows/IronOre.xnb</DestFile>
+  <DestTime>2017-11-16T17:57:23.8626741+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-10-15T23:46:32+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

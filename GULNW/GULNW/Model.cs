@@ -8,6 +8,6 @@ namespace GULNW
 {
     class Model
     {
-        
+        public void drawmodel() { }
     }
 }
