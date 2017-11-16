@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/Stone.png</SourceFile>
-  <SourceTime>2017-11-16T17:36:36.8560841+07:00</SourceTime>
+  <SourceTime>2017-11-16T19:40:25.4322698+07:00</SourceTime>
   <DestFile>C:/Users/MSI-GL72-7RD/source/repos/GimmeGOLD/GULNW/GULNW/Content/bin/Windows/Content/Stone.xnb</DestFile>
-  <DestTime>2017-11-16T17:44:51.3151662+07:00</DestTime>
+  <DestTime>2017-11-16T19:40:35.3807668+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-10-15T23:46:32+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

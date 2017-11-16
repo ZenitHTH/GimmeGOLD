@@ -9,8 +9,8 @@ namespace GULNW
     {
         private Texture2D _texture;
         public Vector2 position;
-        public float speed = 8f;
-        public Boolean _hit;
+        public float speed = 5f;
+        public int[,] mode;
         public tile(Texture2D texture)
         {
             _texture = texture;
@@ -18,7 +18,7 @@ namespace GULNW
 
         }
         
-        public void Update()
+        public void Update(GameTime gameTime)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.W))
             {
@@ -67,8 +67,14 @@ namespace GULNW
             spriteBatch.Draw(_texture, position, Color.White);
 
         }
+        public void Drawtile(SpriteBatch spriteBatch)
+        {
+            
 
-        public void tileDraw(SpriteBatch spriteBatch,Vector2 pos)
+        }
+
+
+        public void DrawWall(SpriteBatch spriteBatch,Vector2 pos)
         {
             for (int i = 0; i <= 800; i++)
             {
